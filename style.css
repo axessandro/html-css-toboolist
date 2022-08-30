@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgray;
+    background-color: rgb(232, 232, 232);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -33,3 +33,118 @@ header{
 }
 
 /* /HEADER */
+
+/* MAIN */
+
+.container-main{
+    background-color: white;
+    margin-top: 2em;
+    width: 80%;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-left: 0em;
+    padding-top: 0.8em;
+    padding-bottom: 3em;
+
+}
+
+.container-button{
+    border-bottom: 2px solid lightgray;
+}
+
+.button{
+    background-color: white;
+    color: lightgray;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+    margin-bottom: 0.8em;
+    
+}
+
+.blu-button{
+    background-color: #46adf1;
+    color: white;
+    margin-left: 3em;
+}
+
+/* UL */
+.container-ul{
+    background-color: white;
+}
+
+ul{
+    list-style-type: none;
+    color: rgb(58, 58, 58);
+}
+
+li{
+    font-weight: 400;
+    margin-left: -2.5em;
+    margin-top: 1em;
+}
+
+.bold{
+    font-weight: bold;
+    margin-left: 0;
+    margin-top: 2em;
+}
+
+.check{
+    color: rgb(87, 202, 87);
+    border: 2px solid rgb(87, 202, 87);
+    border-radius: 50%;
+    font-size: 1em;
+    margin-right: 3px;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.cross{
+    color: rgb(232, 49, 49);
+    border: 2px solid rgb(232, 49, 49);
+    border-radius: 50%;
+    font-size: 1em;
+    margin-right: 3px;
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    text-align: center;
+}
+
+.tags{
+    padding: 5px 8px;
+    font-size: 0.6em;
+    border-radius: 8px;
+    color: white;
+}
+
+.editorial{
+    background-color: #45abe9;
+}
+
+.goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color: #d763a1;
+}
+
+.sales{
+    background-color: #b0c925;
+}
+
+/* /MAIN */
