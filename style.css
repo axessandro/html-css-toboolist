@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER */
+header{
+    height: 100px;
+    background-color: white;
+}
+
+.container-logo{
+    line-height: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.container-logo span{
+    font-size: 2rem;
+    font-weight: 600;
+    vertical-align: middle;
+}
+
+#logo{
+    height: 60px;
+    vertical-align: middle;
+}
+
+/* /HEADER */
